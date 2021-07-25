@@ -34,7 +34,7 @@ export function TaskList() {
         2 - precisa ir no array de tasks e mapear todas as tasks
         3 - pegar a task que tem aquele id especifico
         4 - alterar o valor da task (true ou false) => if ternario
-        5 - setar como novo no estado
+        5 - setar como novo estado no newTasks
     */
     const newTasks = tasks.map(task => task.id === id ? {
       ...task,
